@@ -50,3 +50,25 @@ https://www.opentutorials.org/module/3653/22071
 - 그 외에도 몇가지 tactics가 더 있음 (자세한건 프린트 링크 참고)
 
 13. 언제 regression이 아닌 classification을 사용해야 할까?
+- 카테고리로 나누어지는 결과를 얻길 원할때 classification을 사용하면 된다
+
+14. 앙상블 테크닉을 쓰기 좋은 예시를 열거해보아라
+- 앙상블 기술은 learning algoright들을 결합해서 사용한다. 그렇게 해서 좀더 좋은 퍼포먼스를 최적화 한다.
+- 오버피팅을 줄어주며 모델이 보다 robust해진다. (training의 작은 변화에도 크게 영향을 받지 않는다)
+- 앙상블의 예시로는 bagging, boosting, the 'bucket of modesl' method) 등이 있다.
+
+15. 오버피팅 하지 않는 다는것을 어떻게 확신할 수 있는가?
+- 3가지의 주요한 방법이 있는데
+- 모델을 좀더 simple하게 만드는 것이다. 매우 작은 숫자의 변수와 파라미터가 되도록 분산값을 감소시킨다. 그러면 training data의 noise를 감소시킬 수 있을 것이다.
+- k-folds cross-validation과 같은 cross-validation 기법들을 사용하는 것이다.
+- LASSO와 같은 regularization 기법들을 사용함으로서 모델 파라미터를 오버피팅이 되지 않도록 penalize 하는 것이다.
+
+16. 어떤 평가 방법이 머신러닝 모델의 효과를 입증하는데 유용할것이냐?
+- F1 score, accuracy, confusion matrix 중에서 선택을 하면 되는데
+- 아래에 각각에 대해서 잘 정리되어 있는 list가 있고
+- https://machinelearningmastery.com/classification-accuracy-is-not-enough-more-performance-measures-you-can-use/
+- 아래에는 좀더 읽을 만한 내용이 있음
+- https://machinelearningmastery.com/how-to-evaluate-machine-learning-algorithms/
+- (한글사이트)
+- https://blog.naver.com/owl6615/222030981012
+- https://blog.naver.com/whdals0/222305204768
