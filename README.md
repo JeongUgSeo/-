@@ -72,3 +72,13 @@ https://www.opentutorials.org/module/3653/22071
 - (한글사이트)
 - https://blog.naver.com/owl6615/222030981012
 - https://blog.naver.com/whdals0/222305204768
+
+17. logistic regression 모델을 어떻게 평가할 것이냐?
+- 이는 위의 답변과도 같으며 내가 어떤 목표로 사용할 것어이냐에 따라 달려 있다.
+
+18. 커널 트릭이란 무엇인가?
+- 저차원 공간 벡터에 있는 데이터들을 고차원 벡터로 옮겨 줌으로서 결정 경계를 찾는 방법을 고안하는 것이다.
+
+19. precision and recall에 대해서 무엇을 이해하고 있나?
+- 4번질문이랑 비슷한 것 같긴 한데
+- 둘다 관련성을 측정하는 기반
